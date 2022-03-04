@@ -1,4 +1,4 @@
-list = [1,2,2,4]
+list = [1,2,1,4]
 new = [] 
 for a in list:
     n = list.count(a)
@@ -7,4 +7,4 @@ for a in list:
             new.append(a)
 print(new)
 output:
-[2]
+[1]
